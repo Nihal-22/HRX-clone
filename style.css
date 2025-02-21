@@ -2,39 +2,28 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
-    position: sticky;
+.navbar {
     background-color: black;
-    display: flex;
+    padding: 10px 0;
 }
-.navbar img{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    width: 60px;
+.navbar-brand img {
     height: 30px;
 }
-.navbar ul{
-    margin-top: 30px;
-    margin-bottom: 25px;
-    margin-left: 210px;
-    display: flex;
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin: 0 10px;
 }
-.navbar li{
-    color: white;
-    margin-left: 60px;
+.nav-link:hover, .nav-link.active {
+    color: rgb(232, 72, 72) !important;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-}
-.navbar button{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: white;
+.login-btn {
     background-color: rgb(232, 72, 72);
-    width: 75px;
-    height: 45px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
 }
 video{
     width: 100%;
