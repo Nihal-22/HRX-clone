@@ -86,7 +86,6 @@ video{
     }
 }
 
-/* Content animation from right */
 .fade-in-right {
     opacity: 0;
     transform: translateX(50px);
@@ -112,17 +111,15 @@ video{
     justify-content: center;
 }
 
-/* Dark overlay effect */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Darken the image */
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* Content styling */
 .content {
     position: relative;
     z-index: 2;
@@ -135,7 +132,6 @@ video{
     padding: 80px 20px;
 }
 
-/* Dark Overlay Effect */
 .press-release-section::before {
     content: "";
     position: absolute;
@@ -143,7 +139,7 @@ video{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.675); /* Adjust opacity */
+    background: rgba(0, 0, 0, 0.675); 
     z-index: 1;
 }
 
@@ -163,7 +159,6 @@ video{
     margin-bottom: 30px;
 }
 
-/* Image Grid */
 .image-grid {
     display: flex;
     flex-wrap: wrap;
@@ -216,11 +211,11 @@ video{
 }
 
 .social-icons a:hover {
-    color: red;
+    color: rgb(232, 72, 72);
 }
 
 .footer-heading {
-    color: red;
+    color: rgb(232, 72, 72);
     font-weight: bold;
 }
 
@@ -240,5 +235,5 @@ video{
 }
 
 .footer-links a:hover {
-    color: red;
+    color: rgb(232, 72, 72);
 }
